@@ -173,3 +173,9 @@ Package/ Fonction Gensim (pour entrainer les vecteurs de mots)
 https://radimrehurek.com/gensim/models/word2vec.html
 
 
+
+## Astuce 
+
+Afin d'éviter de devoir relancer tout le code (ce qui peut être extrêment long), vous pouvez directement télécharger nos résulats et simplement lancer à partir de la 3ème partie.  
+Il est préférable de tout enregistrer au même endroit sur votre ordinateur.
+
