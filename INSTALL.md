@@ -1,6 +1,12 @@
 Dans un premier temps, les plateformes et version de python qui ont été utilisées sont :
- - Mac OS Mojave Version 10.14.6 avec python 3.7.6 (Visual Studio Code a été utilisé également)
- - Windows 10 et python 3.7.6
+ 
+ Système d'exploitation          |  Version Python 
+---------------------------------|------------------------------------------------------------|
+Mac OS Mojave Version 10.14.6    |   3.7.6 64-bit (Visual Studio Code a été utilisé également)
+Windows 10                       |   3.7 64-bit
+***
+
+&nbsp;
  
 Nous avons essayé de passer le code sur python 3.7 et le code ne fonctionnait pas, il faut absolument utiliesr python 3.7.6.
 
@@ -16,9 +22,9 @@ Les packages devant être installés :
 - gensim
 
 
-Chacun de ces packages a été installé à l'aide de pip.
+<i><b>Chacun de ces packages a été installé à l'aide de pip.</i></b>
 
-Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans prompt pour s'assurer une installation :
+Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans <b>prompt</b> pour s'assurer une installation :
 
 pip install pandas  
 pip install keras  
