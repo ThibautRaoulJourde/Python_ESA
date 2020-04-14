@@ -29,7 +29,7 @@ Les packages devant être installés :
 
 <i><b>Chacun de ces packages a été installé à l'aide de pip.</i></b>
 
-Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans <b>prompt</b> pour s'assurer une installation :
+Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans <b>prompt</b> pour s'assurer de l'installation :
 
 pip install pandas  
 pip install keras  
