@@ -163,10 +163,12 @@ Ce sont pour nous les premières pistes qu'il faudrait explorer.
 
 #### Lien utilie à la compréhension du code
 
-Stopword et Racinisation 
+Stopword et Racinisation  
 https://openclassrooms.com/fr/courses/4470541-analysez-vos-donnees-textuelles/4854971-nettoyez-et-normalisez-les-donnees
 
-Package/ Fonction Gensim (pour entrainer les vecteurs de mots)
+<p></p>
+
+Package/ Fonction Gensim (pour entrainer les vecteurs de mots)  
 https://radimrehurek.com/gensim/models/word2vec.html
 
 
