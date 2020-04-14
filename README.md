@@ -142,7 +142,7 @@ C'est sûrement un des points les plus importants de l'analyse de sentiments.
 
 <p></p>
 
-## Piste d'évolution
+## Pistes d'évolutions
 
 Une piste d'évolution, du moins à notre niveau serait de gérer des émotions plus complexes que les simples sentiments aimer, ne pas aimer, positif, négatif.  
 Il faudrait pouvoir aller au-delà du résultat binaire et faire une échelle de sentiment.  
