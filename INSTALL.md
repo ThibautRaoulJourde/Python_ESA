@@ -10,7 +10,7 @@ Windows 10                       |   3.7 64-bit
 &nbsp;
 ## Remarque
 
-Nous avons essayé de passer le code sur python 3.7 et le code ne fonctionnait pas, il faut absolument utiliesr python 3.7.6.
+Nous avons essayé de passer le code sur python 3.7 mais le code ne fonctionnait pas, il faut absolument utiliser python 3.7.6.
 Il faudra faire attention, c'est sous la version Mac OS que le code tourne le mieux.
 
 ## Packages
