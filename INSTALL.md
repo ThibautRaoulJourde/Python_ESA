@@ -8,8 +8,12 @@ Mac OS Mojave Version 10.14.6    |   3.7.6 64-bit (Visual Studio Code a été ut
 Windows 10                       |   3.7 64-bit
 ***
 &nbsp;
- 
+## Remarque
+
 Nous avons essayé de passer le code sur python 3.7 et le code ne fonctionnait pas, il faut absolument utiliesr python 3.7.6.
+Il faudra faire attention, c'est sous la version Mac OS que le code tourne le mieux.
+
+## Packages
 
 Les packages devant être installés : 
 
@@ -36,4 +40,4 @@ pip install Scikit
 pip install sklearn  
 pip install gensim  
 <p></p>
-Il faudra faire attention, c'est sous la version Mac OS que le code tourne le mieux.
+
