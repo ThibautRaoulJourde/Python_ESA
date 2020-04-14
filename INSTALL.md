@@ -29,7 +29,7 @@ Les packages devant être installés :
 
 <i><b>Chacun de ces packages a été installé à l'aide de pip.</i></b>
 
-Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans <b>prompt</b> pour s'assurer de l'installation :
+Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans <b>prompt</b> pour s'assurer de l'installation :  
 (Prompt devra être utilisé pour les utilisateurs windows, avec Mac et Visual studio Code ces lignes peuvent être directement écrite dans le code).
 
 pip install pandas  
