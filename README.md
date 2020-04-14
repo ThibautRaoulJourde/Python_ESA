@@ -5,7 +5,7 @@ Le projet a été réalisé par :
 <p></p>
 <i> <b> YE Maxime</i> </b>
 <p></p>
-<i><b>Buvat Antoine</i></b>
+<i><b>BUVAT Antoine</i></b>
 <p></p>
 <i><b>RAOUL-JOURDE Thibaut</i></b>
 <p></p>
