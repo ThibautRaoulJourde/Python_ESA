@@ -183,9 +183,9 @@ https://wetransfer.com/downloads/65c608fac1cc4a761dbcecb6c84cc19620200414142433/
 
 Si le lien est périmé, vous pouvez nous contacter à l'une des adresses suivantes:
 
-maxime.ye@gmail.com
-antoinebuvat74@gmail.com
-thibaut.raouljourde@gmail.com
+maxime.ye@gmail.com  
+antoinebuvat74@gmail.com  
+thibaut.raouljourde@gmail.com  
 
 Il est préférable de tout enregistrer au même endroit sur votre ordinateur.
 
