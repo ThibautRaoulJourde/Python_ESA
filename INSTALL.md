@@ -20,13 +20,13 @@ Chacun de ces packages a été installé à l'aide de pip.
 
 Dans le code vous retrouverez les lignes suivantes, qui devront être écrite dans prompt pour s'assurer une installation :
 
-pip install pandas
-pip install keras
-pip install tensorflow
-pip install nltk
-pip install matplotlib
-pip install Scikit
-pip install sklearn
-pip install gensim
-
+pip install pandas  
+pip install keras  
+pip install tensorflow  
+pip install nltk  
+pip install matplotlib  
+pip install Scikit  
+pip install sklearn  
+pip install gensim  
+<p></p>
 Il faudra faire attention, c'est sous la version Mac OS que le code tourne le mieux.
