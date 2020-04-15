@@ -176,7 +176,7 @@ https://radimrehurek.com/gensim/models/word2vec.html
 
 ## Astuce 
 
-Afin d'éviter de devoir relancer tout le code (ce qui peut être extrêmement long), vous pouvez directement télécharger nos résultats et simplement lancer le code à partir de la 3ème partie.  
+Afin d'éviter de devoir relancer tout le code (ce qui peut être extrêmement long), vous pouvez directement télécharger nos résultats et simplement charger le code de la 3ème partie du programme et utiliser le décodeur de sentiment dans la 4ème partie. 
 Vous trouverez les fichiers model et tokenizer au lien suivant: 
 
 https://wetransfer.com/downloads/65c608fac1cc4a761dbcecb6c84cc19620200414142433/69b020?fbclid=IwAR0akUvQ5CimurfMZHT6iZ7AQ4CWhBoOTrljtzbDFYqbLiP4XV18Iu7QFkQ
@@ -188,4 +188,6 @@ antoinebuvat74@gmail.com
 thibaut.raouljourde@gmail.com  
 
 Il est préférable de tout enregistrer au même endroit sur votre ordinateur.
+
+
 
