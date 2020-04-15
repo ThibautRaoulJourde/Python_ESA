@@ -25,7 +25,7 @@ Ce type d'analyse se retrouve dans de nombreux domaines.
 Cette nouvelle évolution du traitement de la donnée permet notamment de mieux comprendre les clients ou encore d'aider à la détection de la fraude pour ne citer que ces exemples-là.  
 Evidemment une simple analyse de texte, ou de sentiments dans notre projet, ne suffit pas, cette analyse est là pour compléter les modèles de machine learning déjà existants.  
 Apporter de l'information supplémentaire pour aider à l'amélioration de nos modèles.  
-Avant de continuer et après avoir un petit peu loué les mérites de l'analyse de texte, nous allons définir précisément ce qu'est le text mining.
+Avant de continuer et après avoir spécifié les bénéfices de l'analyse de texte, nous allons définir précisément ce qu'est le text mining.
 
 <p></p>
 
@@ -40,12 +40,12 @@ Beaucoup utilisé en marketing, le text mining est une discipline très utilisé
 <P></p>
 
 Suite à cette brève explication du text mining nous allons entrer dans le coeur de notre sujet.  
-Soit, comment nous avons réussi à mettre en place une analyse de sentiments sur une base de données tweeter.
+À savoir comment nous avons réussi à mettre en place une analyse de sentiments sur une base de données tweeter.
 
 <p></p>
 
 Après l'installation de certains packages nécessaires à notre code (cf. INSTALL), nous avons lancé la préparation des données.  
-La préparation des données est un des points les plus importants de toutes analyses. Des données "sales" ne peuvent que détériorer les résultats futurs.  
+La préparation des données est un des points les plus importants de toutes analyses. Des données non préparées ne peuvent que détériorer les résultats futurs.  
 "Garbage In Garbage Out" est une expression expliquant parfaitement bien pourquoi nous devons préparer nos données correctement.  
 
 <p></p>
@@ -79,16 +79,16 @@ Les mots au pluriel seront ramenés au singulier après la mise en place de cett
 
 <p></p>
 
-Une fois de plus nous repassons sur nos données afin de supprimer cette fois tous les caratères spéciaux, que nous aurons indiqué dans la fonction que nous créons.  
+Une fois de plus nous repassons sur nos données afin de supprimer cette fois tous les caractères spéciaux, que nous aurons indiqué dans la fonction que nous créons.  
 <p></p>
 
 Dans un second temps, nous séparons donc nos données en 2 échantillons, un échantillon d'apprentissage nous permettant de tester nos modèles, d'apprendre de nos données afin de sortir les résultats voulus.  
-Ainsi qu'un échantillon test, permettant de vérifier nos résultats, voir si nous n'avons pas fait de surapprentissage dans notre précédant échantillon.  
+Ainsi qu'un échantillon test, permettant de vérifier nos résultats, voir si nous n'avons pas fait de sur-apprentissage dans notre précédant échantillon.  
 Les échantillons seront séparés de manière assez classique, 70-30.  
 
 <p></p>
 
-Pour la mise en place de notre modèle nlp, nous séparons chaque mot les uns des autres.  
+Pour la mise en place de notre modèle NLP, nous séparons chaque mot les uns des autres.  
 Nous stockons chaque mot dans la liste "mot".  
 A l'aide du package Gensim, nous pouvons entrainer des vecteurs de mots qui nous servirons plus tard.  
 
@@ -102,7 +102,7 @@ Ensuite, nous convertissons les vecteurs de mots en entier et nous ajustons notr
 <P></p>
 
 Une nouvelle fonction est créée, decode_sentiment, permettant de trouver le sentiment dans le texte en fonction d'un score.  
-Score utilisé : (Données pris arbitrairement)  
+Score utilisé : (On a définit les seuils de façon arbitraire)  
 <p></p>
  =< 0.35 : Sentiment négatif associé au tweet  
  <p></p>
@@ -151,7 +151,7 @@ Découvrir si le sentiment négatif, est un sentiment qui est tellement proche d
 C'est quelque chose qui pourrait être extrêmement utile pour les entreprises qui veulent s'investir auprès de leurs clients.   
 Gérer l'ironie ou le sarcasme est également un problème, il faudrait presque pouvoir lire entre les lignes, c'est seulement possible après un long entraiment de modèle de machine learning.  
 Les différences de langues peuvent également être un problème qu'il faudra régler dans le futur.  
-La langue française contient de nombreuses subtilités qui ne sont pas forcément visibles par la machine pour le moment.  
+La langue française contient de nombreuses subtilités qui ne sont pas forcément visibles par les machines pour le moment.  
 Les langues des pays asiatiques sont également un problème, il faut pouvoir comprendre les signes et non plus des lettres.  
 En japonais, un même symbole peut avoir plusieurs significations en fonction du type de kanji par exemple.  
 
@@ -162,7 +162,7 @@ Ce sont pour nous les premières pistes qu'il faudrait explorer.
 <p></p>
 
 
-#### Lien utilie à la compréhension du code
+#### Liens utiles à la compréhension du code (fonction StopWord et word2vec)
 
 Stopword et Racinisation  
 https://openclassrooms.com/fr/courses/4470541-analysez-vos-donnees-textuelles/4854971-nettoyez-et-normalisez-les-donnees
@@ -176,7 +176,7 @@ https://radimrehurek.com/gensim/models/word2vec.html
 
 ## Astuce 
 
-Afin d'éviter de devoir relancer tout le code (ce qui peut être extrêment long), vous pouvez directement télécharger nos résulats et simplement lancer à partir de la 3ème partie.  
+Afin d'éviter de devoir relancer tout le code (ce qui peut être extrêmement long), vous pouvez directement télécharger nos résultats et simplement lancer le code à partir de la 3ème partie.  
 Vous trouverez les fichiers model et tokenizer au lien suivant: 
 
 https://wetransfer.com/downloads/65c608fac1cc4a761dbcecb6c84cc19620200414142433/69b020?fbclid=IwAR0akUvQ5CimurfMZHT6iZ7AQ4CWhBoOTrljtzbDFYqbLiP4XV18Iu7QFkQ
