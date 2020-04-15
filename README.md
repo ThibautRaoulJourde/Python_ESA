@@ -14,7 +14,7 @@ Le projet a été réalisé par :
 <p></p>
 <i><b>M. Joseph BASQUIN</i></b>
 
-## Introduction au projet
+## Introduction au projet 
 
 Nous avons décidé de travailler sur le sujet B : Analyse de sentiments (positif, négatif, neutre) sur des tweets (analyse de texte en langage naturel). 
 <p></p>
